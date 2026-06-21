@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./../static/stylesheet.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Cormorant+Garamond:wght@600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="container">
+            <header>
+                <img src="./../static/icons.png" />
+                <div>
+                    <h1>Adriano Alasia</h1>
+                    <h3>Archive of my thoughts</h3>
+                </div>
+            </header>
+
+            <main id="content">
+
+                <h1><%= article.title %></h1>
+
+                <%- article.markdown_html %>
+            </main>
+        </div>
+  </body>
+</html>

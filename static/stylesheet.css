@@ -1,0 +1,44 @@
+body {
+    padding:0;
+    margin:0;
+    background-color: #EFE8D8;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background: crimson;
+    font-family: 'Libre Baskerville';
+    color: gold; 
+    /*#f2f2f2;*/
+    border-bottom: 4px solid gold;
+}
+
+#container {
+    font-family: Georgia, "Times New Roman", serif;
+    width: 780px;
+    max-width: 96%;
+    margin: 14px auto;
+    background: #F8F8F8;
+    border: 1px solid #000;
+    box-shadow: 8px 8px var(--shadow);
+}
+
+#container img {
+    width:15%;
+}
+
+#container h1 {
+    display:inline;
+    margin:0;
+}
+
+#container h3 {
+    margin:0;
+}
+
+#content {
+    padding:10px;
+}
