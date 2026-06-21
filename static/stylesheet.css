@@ -1,7 +1,11 @@
 body {
     padding:0;
     margin:0;
-    background-color: #EFE8D8;
+  background:
+    radial-gradient(#d8d0bd 1px, transparent 1px),
+    #f4f0e6;
+  background-size: 18px 18px;
+    height:100%;
 }
 
 header {
