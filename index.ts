@@ -13,6 +13,8 @@ const db = new Database('database.db')
 
 const server = Bun.serve({
 
+    port:80,
+
     routes: {
         "/": async () => {
 
